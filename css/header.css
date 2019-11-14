@@ -1,0 +1,9 @@
+.header{
+    height: 800px;
+    width: 100%;
+    background-color: #f3e1d5;
+    background: url("../img/bg-header-sl-1.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
