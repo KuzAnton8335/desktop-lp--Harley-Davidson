@@ -1,9 +1,60 @@
-.header{
+.header {
     height: 800px;
     width: 100%;
+    padding-top: 36px;
     background-color: #f3e1d5;
     background: url("../img/bg-header-sl-1.jpeg") no-repeat;
     background-size: cover;
     background-position: center;
 
+}
+
+.header__nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+
+
+}
+
+.header__nav-link {
+    color: #404040;
+    text-decoration: none;
+}
+
+.header__nav-link:hover {
+    color: #004cff;
+}
+
+.header__button {
+    height: 66px;
+    padding-top: 23px;
+    padding-left: 38px;
+    padding-right: 38px;
+    line-height: 1;
+    background: #004cff;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+
+    transition: 0.2s all ease-in;
+}
+
+.header__button:hover {
+    background: #fff;
+    border: 1px solid #004cff;
+    color: #004cff;
 }
