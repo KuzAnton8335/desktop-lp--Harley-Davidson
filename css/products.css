@@ -1,0 +1,44 @@
+.products {
+    padding-top: 60px;
+    padding-bottom: 65px;
+}
+
+.products__title {
+    margin-bottom: 45px;
+    color: #f1f1f1;
+    font-family: 'Teko', sans-serif;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.products_filter {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #B2B2B2;
+    padding-bottom: 45px;
+}
+
+.products_filter-item {
+    margin-right: 45px;
+    color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-decoration: none;
+}
+
+.products_filter-item:last-child {
+    margin-right: 0;
+}
+
+.products_filter-item:hover {
+    color: #0077ff;
+}
+
+.products_filter-item--active {
+    color: #0077ff;
+}
