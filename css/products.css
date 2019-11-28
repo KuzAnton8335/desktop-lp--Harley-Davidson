@@ -29,6 +29,7 @@
     font-weight: 600;
     line-height: 1.3;
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 .products_filter-item:last-child {
