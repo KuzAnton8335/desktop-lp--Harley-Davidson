@@ -1,0 +1,55 @@
+.subscripe-wrapper {}
+
+.subscripe {
+    position: relative;
+    height: 550px;
+}
+
+.subscripe-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.subscripe-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 76, 255, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscripe-title {
+    color: #fff;
+    font-family: 'Teko',
+        sans-serif;
+    font-size: 97px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.subscripe-form {
+    display: flex;
+    width: 900px;
+}
+
+.subscripe-input {
+    background-color: #fff;
+    padding: 0;
+    height: 62px;
+    color: #707070;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    border: none;
+}
+
+.subscripe-button {}
