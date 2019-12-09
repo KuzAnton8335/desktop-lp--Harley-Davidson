@@ -1,0 +1,11 @@
+.gallary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallary-item {
+    width: 33.3333%;
+    height: 488px;
+    object-fit: cover;
+    object-position: center;
+}
