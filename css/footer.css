@@ -1,0 +1,38 @@
+.footer{
+	padding-top: 120px;
+	color:#fff;
+}
+.footer__row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__column{
+	max-width: 250px;
+}
+
+.footer_title{
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 30px;
+	padding-bottom: 40px;
+}
+
+.footer_text{
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.7;
+	padding-bottom: 68px;
+}
+
+.footer__list{
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+	font-size: 19px;
+	line-height: 1.5;
+}
+
+.footer__list_item{
+	margin-bottom: 20px;
+}
